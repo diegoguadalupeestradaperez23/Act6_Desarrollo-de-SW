@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Ventana de visualizacion-->
+    <title>Contacto - Global Lingua</title>
+    <link rel="stylesheet" href="style.css"> <!--link de css-->
+</head>
+<body>
+    <header>
+        <h1>Contacto - Global Lingua</h1>
+        <nav>
+            <ul>
+                <!--Menu-->
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="sucursales.html">Sucursales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de Registro</h2>
+            <form>
+                <label for="nombre">Nombre completo:</label><br><!--for vinculacion de label y imput-->
+                <input type="text" id="nombre" name="nombre" required><br><br><!--Obligar al usuario a rellenar el campo-->
+
+                <label for="email">Correo electrónico:</label><br><!--for vinculacion de label y imput-->
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="curso">Curso de interés:</label><br><!--for vinculacion de label y select-->
+                <select id="curso" name="curso">
+                    <option>Inglés</option>
+                    <option>Francés</option>
+                    <option>Alemán</option>
+                </select><br><br>
+
+                <button type="submit">Registrarme</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Preguntas</h2>
+            <form>
+                <label for="pregunta">Escribe tu pregunta:</label><br>
+                <input type="text" id="pregunta" name="pregunta"><br><br>
+                <button type="submit">Enviar Pregunta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 04/10/2025 Global Lingua</p>
+    </footer>
+</body>
+</html>
